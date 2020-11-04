@@ -1,0 +1,7 @@
+docker-compose build
+
+docker-compose run app sh -c
+
+docker-compose run app sh -c "django-admin.py startproject app ."
+
+git commit -a "setup docker and django project"
